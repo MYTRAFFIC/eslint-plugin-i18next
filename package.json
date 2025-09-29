@@ -28,6 +28,7 @@
     "test": "mocha --timeout 50000 tests/lib/rules/no-literal-string/ && pnpm --filter='./examples/*' run lint"
   },
   "dependencies": {
+    "jsonc-eslint-parser": "^2.4.1",
     "lodash": "^4.17.21",
     "requireindex": "~1.1.0"
   },
