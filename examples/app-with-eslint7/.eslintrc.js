@@ -6,7 +6,7 @@ module.exports = {
     browser: true,
     es6: true,
   },
-  extends: ['plugin:i18next/recommended'],
+  extends: ['plugin:@geoblink/i18next/recommended'],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
@@ -16,6 +16,6 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    'i18next/no-literal-string': ['error', { mode: 'all' }],
+    '@geoblink/i18next/no-literal-string': ['error', { mode: 'all' }],
   },
 };

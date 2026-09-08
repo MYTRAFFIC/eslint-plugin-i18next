@@ -1,6 +1,6 @@
 import globals from 'globals';
 import pluginJs from '@eslint/js';
-import i18next from 'eslint-plugin-i18next';
+import i18next from '@geoblink/eslint-plugin-i18next';
 
 export default [
   {

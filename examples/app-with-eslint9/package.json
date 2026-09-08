@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "eslint-plugin-i18next": "workspace:*"
+    "@geoblink/eslint-plugin-i18next": "workspace:*"
   },
   "devDependencies": {
     "@eslint/js": "^9.6.0",

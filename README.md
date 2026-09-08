@@ -1,13 +1,22 @@
-# eslint-plugin-i18next
+# @geoblink/eslint-plugin-i18next
 
-ESLint plugin for i18n
+ESLint plugin for i18n. MyTraffic's fork of
+[edvardchen/eslint-plugin-i18next](https://github.com/edvardchen/eslint-plugin-i18next),
+published under the `@geoblink` scope because the two rules below don't exist
+upstream:
+
+- `no-missing-plural-count`
+- `no-empty-translation-string`
+
+The version tracks the upstream release the fork is based on. `no-literal-string`
+and everything else below is upstream's, unchanged.
 
 > For old versions below v6, plz refer [this document](./v5.md)
 
 ## Installation
 
 ```bash
-npm install eslint-plugin-i18next --save-dev
+npm install @geoblink/eslint-plugin-i18next --save-dev
 ```
 
 ## Usage
@@ -16,7 +25,7 @@ For ESLint 9 flat configuration,
 
 ```js
 // eslint.config.mjs
-import i18next from 'eslint-plugin-i18next';
+import i18next from '@geoblink/eslint-plugin-i18next';
 
 export default [
   // your other configs
@@ -29,7 +38,7 @@ For ESLint 8 and below,
 ```json
 // .eslintrc
 {
-  "extends": ["plugin:i18next/recommended"]
+  "extends": ["plugin:@geoblink/i18next/recommended"]
 }
 ```
 
