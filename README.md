@@ -38,7 +38,7 @@ For ESLint 8 and below,
 ```json
 // .eslintrc
 {
-  "extends": ["plugin:i18next/recommended"]
+  "extends": ["plugin:@geoblink/i18next/recommended"]
 }
 ```
 

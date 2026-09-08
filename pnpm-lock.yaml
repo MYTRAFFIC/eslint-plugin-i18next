@@ -60,7 +60,7 @@ importers:
 
   examples/app-with-eslint7:
     dependencies:
-      eslint-plugin-i18next:
+      '@geoblink/eslint-plugin-i18next':
         specifier: workspace:*
         version: link:../..
       zx:
@@ -79,7 +79,7 @@ importers:
 
   examples/app-with-eslint9:
     dependencies:
-      eslint-plugin-i18next:
+      '@geoblink/eslint-plugin-i18next':
         specifier: workspace:*
         version: link:../..
     devDependencies:
